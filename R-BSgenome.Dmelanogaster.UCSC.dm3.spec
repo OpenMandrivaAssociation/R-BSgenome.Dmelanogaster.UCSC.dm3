@@ -10,11 +10,8 @@ License:          Artistic-2.0
 URL:              http://bioconductor.org/packages/release/data/annotation/html/%{packname}.html
 Source0:          http://bioconductor.org/packages/release/data/annotation/src/contrib/%{packname}_%{version}.tar.gz
 BuildArch:        noarch
-Requires:         R-core
-Requires:         R-BSgenome 
-Requires:         R-BSgenome 
+Requires:         R-core R-BSgenome
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-BSgenome
-BuildRequires:    R-BSgenome 
 
 %description
 Drosophila melanogaster (Fly) full genome as provided by UCSC (dm3, Apr.
