@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          1.3.17
-Release:          1
+Release:          2
 Summary:          Drosophila melanogaster (Fly) full genome (UCSC version dm3)
 Group:            Sciences/Mathematics
 License:          Artistic-2.0
