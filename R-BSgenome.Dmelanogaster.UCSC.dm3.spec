@@ -2,16 +2,18 @@
 %global rlibdir  %{_datadir}/R/library
 
 Name:             R-%{packname}
-Version:          1.3.17
-Release:          2
+Version:          1.3.19
+Release:          1
 Summary:          Drosophila melanogaster (Fly) full genome (UCSC version dm3)
 Group:            Sciences/Mathematics
 License:          Artistic-2.0
 URL:              http://bioconductor.org/packages/release/data/annotation/html/%{packname}.html
-Source0:          http://bioconductor.org/packages/release/data/annotation/src/contrib/%{packname}_%{version}.tar.gz
+Source0:          http://bioconductor.org/packages/release/data/annotation/src/contrib/BSgenome.Dmelanogaster.UCSC.dm3_1.3.19.tar.gz
 BuildArch:        noarch
-Requires:         R-core R-BSgenome
+Requires:         R-core
+Requires:         R-BSgenome 
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-BSgenome
+BuildRequires:    R-BSgenome 
 
 %description
 Drosophila melanogaster (Fly) full genome as provided by UCSC (dm3, Apr.
@@ -41,3 +43,4 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/R
 %{rlibdir}/%{packname}/extdata
 %{rlibdir}/%{packname}/help
+
