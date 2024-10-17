@@ -7,7 +7,7 @@ Release:          1
 Summary:          Drosophila melanogaster (Fly) full genome (UCSC version dm3)
 Group:            Sciences/Mathematics
 License:          Artistic-2.0
-URL:              http://bioconductor.org/packages/release/data/annotation/html/%{packname}.html
+URL:              https://bioconductor.org/packages/release/data/annotation/html/%{packname}.html
 Source0:          http://bioconductor.org/packages/release/data/annotation/src/contrib/BSgenome.Dmelanogaster.UCSC.dm3_1.3.19.tar.gz
 BuildArch:        noarch
 Requires:         R-core
